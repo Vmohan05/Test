@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46b0e7af1b6ea110cc61dc6cdc4bcbd3" label="app" max_length="40" name="x_921507_app_app" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number1" max_length="40" name="number1" type="string"/>
+    </element>
+</database>
